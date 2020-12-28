@@ -127,7 +127,7 @@ footer ::after{
 
 }
 .button-accent{
-    color: black;
+    color:wheat;
    
     border-color:#00ff6c ;
 }
@@ -144,7 +144,7 @@ footer ::after{
 }
 .button-dark:hover,
 .button-dark :focus{
-    background: lightseagreen;
+    background: whitesmoke;
     color: #232323;
     
 }
@@ -161,18 +161,26 @@ footer ::after{
     
 }
 
+.pos{
+    position: fixed;
+    z-index: 1; 
+   
+}
 nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
-    position: -webkit-sticky;
-     position: sticky;
-     top: 0;
+    
+    
 }
+
 
 nav li{
     display: inline-block;
     margin: 1em;
+    top: 50px;
+    right: 0px;
+    
 
 }
  nav a{
@@ -305,9 +313,8 @@ nav li{
 ++++++++++++++++=========>>*/
 .cta{
     background-color: #00ff6c;
-    padding: 6em 0 ;
+    padding: 5.8em 0;
     margin-top: -2.98em;
-    margin-right: -.85em;
     
     
 }
